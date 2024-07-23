@@ -5,19 +5,7 @@ A Hierarchical Call Graph Generator for Multi Languages
 
 ```bash
 #requirements
-cd tree-sitter-languages
-git clone https://github.com/tree-sitter/tree-sitter-c
-git clone https://github.com/tree-sitter/tree-sitter-cpp
-git clone https://github.com/tree-sitter/tree-sitter-c-sharp
-git clone https://github.com/tree-sitter/tree-sitter-go
-git clone https://github.com/tree-sitter/tree-sitter-java
-git clone https://github.com/tree-sitter/tree-sitter-javascript
-git clone https://github.com/tree-sitter/tree-sitter-python
-git clone https://github.com/tree-sitter/tree-sitter-ruby
-cd ..
-
-#requirements
-pip install tree-sitter
+pip install tree-sitter tree-sitter-c tree-sitter-cpp tree-sitter-c-sharp tree-sitter-go tree-sitter-java tree-sitter-javascript tree-sitter-python tree-sitter-ruby
 
 #repo:demo_repo
 cd repo
